@@ -9,7 +9,7 @@ document.querySelector('.menu-toggle').addEventListener('click', () => {
     document.querySelector('.nav-menu').classList.toggle('active');
 });
 
-// Alterna entre modo claro e escuro
+//  Botão de modo escuro
 document.querySelector('.dark-mode-toggle').addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 });
